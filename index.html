@@ -21,22 +21,22 @@
                             <img src="img/payoo.png" alt="Login" class="mx-auto h-20 mb-2" />
                             <fieldset class="form-control space-y-4 mt-4">
                                 <label class="label" for="email">
-                                    <span class="label-text text-base-content">Email</span>
+                                    <span class="label-text text-base-content">Number</span>
                                 </label>
-                                <input type="email" id="email" class="input input-bordered w-full text-base-content"
-                                    placeholder="Email" />
+                                <input type="text" id="phone-number" class="input input-bordered w-full text-base-content"
+                                    placeholder="Your Phone Number" />
 
                                 <label class="label" for="password">
-                                    <span class="label-text text-base-content">Password</span>
+                                    <span class="label-text text-base-content">Pin Number</span>
                                 </label>
-                                <input type="password" id="password" class="input input-bordered w-full text-base-content"
-                                    placeholder="Password" />
+                                <input type="password" id="pin-number"
+                                    class="input input-bordered w-full text-base-content" placeholder="Pin" />
 
                                 <div class="text-right">
                                     <a class="link link-hover text-sm text-red-500">Forgot password?</a>
                                 </div>
 
-                                <button class="btn btn-primary w-full mt-4">Login</button>
+                                <button id="btn-login" class="btn btn-primary w-full mt-4">Login</button>
                             </fieldset>
                         </div>
                     </div>
@@ -44,5 +44,8 @@
             </div>
         </div>
     </main>
+    
+    <script src="js/login.js"></script>
+</body>
 
 </html>
